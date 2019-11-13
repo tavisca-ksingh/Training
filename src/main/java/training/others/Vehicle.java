@@ -15,7 +15,7 @@ class Check{
             }
         };
 
-        Class metadata = Class.forName("training.others.Account");
+        Class metadata = Class.forName("training.others.Account2");
 
         Vehicle v1=  new Vehicle(){
             @Override

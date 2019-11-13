@@ -1,11 +1,11 @@
 package training.others;
 
-public class Account {
+public class Account2 {
     private String accountNumber;
     private  Double balance;
     private String accountType;
 
-    public Account(String accountNumber, Double balance) {
+    public Account2(String accountNumber, Double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }

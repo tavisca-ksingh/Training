@@ -12,7 +12,6 @@ public class Account {
 
    Scanner sc = new Scanner(System.in);
 
-
    public String getAccountNumber() {
       return accountNumber;
    }
@@ -83,7 +82,6 @@ public class Account {
 
    public void withdrawal(double amount)
    {
-
       if(balance>=amount)
       {
          balance=balance-amount;

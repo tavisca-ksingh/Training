@@ -2,7 +2,7 @@ package house;
 
 import java.util.Date;
 
-public class Devices {
+public class Devices implements Gadgets{
     private String gadgets;
     private boolean currentState;
     private Date onTime;
@@ -18,6 +18,7 @@ public class Devices {
         return gadgets;
     }
 
+    @Override
     public void changeState() {
         currentState = !currentState;
         if(currentState){
@@ -28,6 +29,19 @@ public class Devices {
         }
     }
 
+    @Override
+        public void setTotalOnTime() {
+            if(offTIme==null){
+                offTIme = new Date();
+            }
+            long diff =offTIme.getTime() - onTime.getTime();
+            long diffMinutes = Math.abs(diff ) / (60 * 1000) % 60;
+
+            this.totalOnTime +=  diffMinutes;
+
+            System.out.println("\n" + getGadgets() + " " + getTotalOnTime() + "  min \n");
+        }
+
     public boolean state() {
         return currentState;
     }
@@ -37,18 +51,7 @@ public class Devices {
         return totalOnTime;
     }
 
-    public void setTotalOnTime() {
-        if(offTIme==null){
-            offTIme = new Date();
-        }
-        long diff =offTIme.getTime() - onTime.getTime();
-        long diffMinutes = Math.abs(diff ) / (60 * 1000) % 60;
 
-        this.totalOnTime +=  diffMinutes;
-
-      //  System.out.println(onTime  + " " + offTIme + " \n");
-        System.out.println(getGadgets() + " " + getTotalOnTime() + " min");
-    }
 
 
     @Override

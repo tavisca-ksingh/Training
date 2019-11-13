@@ -16,7 +16,7 @@ public class Control {
          System.out.println("1. Add Room \n" +
                  "2. Add Devices \n" +
                  "3. For Change The Status of any device in any rooms \n" +
-                 "4. Check device on Time"
+                 "4. Check device on Time \n"
            );
          n=sc.nextInt();
          switch (n) {
@@ -35,7 +35,6 @@ public class Control {
                  break;
          }
      }while (n>=1 && n<=4);
-     //System.out.println(rooms);
     }
 
     private static void checkOnTime() {
@@ -53,7 +52,7 @@ public class Control {
             }
         }
         if(!found){
-            System.out.println("No Rooms Finds");
+            System.out.println("No Rooms found");
         }
     }
 
@@ -77,7 +76,7 @@ public class Control {
             }
         }
         if(!found){
-            System.out.println("No Rooms Finds");
+            System.out.println("No Rooms found");
         }
     }
 
@@ -102,8 +101,7 @@ public class Control {
     private static void createRoom()  {
         Scanner sc = new Scanner(System.in);
         String roomName;
-            System.out.println("Press E to exit");
-            System.out.println("Enter the room Name in which you want to add gadgets : ");
+            System.out.println("Enter the room Name : ");
             roomName = sc.nextLine();
             rooms.add(new Room(roomName, addGadgets()));
     }
@@ -125,5 +123,4 @@ public class Control {
             while (!device.equalsIgnoreCase("e"));
             return devices;
         }
-
 }

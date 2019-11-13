@@ -7,7 +7,7 @@ public class TotalBalance {
 
 
     public static void main(String[] args) {
-        Account [] accounts = new Account[6];
+        Account1[] accounts = new Account1[6];
 
 
 
@@ -19,7 +19,7 @@ public class TotalBalance {
             System.out.println("balance ");
             double b = sc.nextDouble();
             sc.nextLine();
-          accounts[i]=new Account();
+          accounts[i]=new Account1();
           accounts[i].setAccountType(t);
           accounts[i].setBalance(b);
         }

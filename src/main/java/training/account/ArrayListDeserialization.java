@@ -10,9 +10,10 @@ public class ArrayListDeserialization {
         BufferedInputStream bin = new BufferedInputStream(new FileInputStream("arraylistSerialized.txt"));
         ObjectInputStream objectInputStream = new ObjectInputStream(bin);
         Object object = objectInputStream.readObject();
+        System.out.println(object);
         //ArrayList<Account1> acc = (ArrayList<Account1>) object;
-        Account1 [] acc = (Account1[]) object;
-         System.out.println(acc[0].getAccountType()+ "  " + acc[0].getBalance());
+//        Account1 [] acc = (Account1[]) object;
+//         System.out.println(acc[0].getAccountType()+ "  " + acc[0].getBalance());
          objectInputStream.close();
 
     }

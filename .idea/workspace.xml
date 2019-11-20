@@ -2,61 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74f4893-5673-472e-84b3-865684a8e960" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rooms.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/StreamChaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/house/Gadgets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/Interface/ElectronicDevices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/Interface/Operable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/Interface/PlumbingDevices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/DeviceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/Thermostat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/houseAutomation/classes/WaterTap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/ActorDetailFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/WorkFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movieDetails/WorkType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/account/ArrayListDeserialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/account/ArrayListSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/training/others/RegularExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CentralExceptionHandling/ERROR_CODES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CentralExceptionHandling/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CentralExceptionHandling/ExceptionHandleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/bank/HDFC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/bank/SBI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/factory/BankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/factory/FactoryCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/factory/LoanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/loan/EducationLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/loan/HomeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactoryPattern/loan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adaperPattern/AdapterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adaperPattern/BankCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adaperPattern/BankDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adaperPattern/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/DataManuplation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/EmpRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/EmpRoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/HRBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/ReviewerBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hrmsDemo/RoleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyServerWithSocket/ThreadProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/Bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/Bank/BankImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/Bank/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/Bank/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/Bank/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/proxy/Classess/France.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/proxy/Classess/India.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/proxy/registry/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/coustomRMI/proxy/registry/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/defaultRMI/AddCLient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/defaultRMI/AddRem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/defaultRMI/AddRemImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/remoteMI/defaultRMI/AddServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serverlet/ClientCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serverlet/ServerCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serverlet/sreverCallRegistry/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/banking/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/banking/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/banking/Banking.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/banking/Banking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/banking/ScheduledTaskExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/banking/ScheduledTaskExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/banking/ScheduledTaskExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/banking/ScheduledTaskExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/house/Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/house/Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/house/Devices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/house/Devices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/account/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/account/TotalBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/training/account/TotalBalance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/others/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/others/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/training/others/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/others/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/training/others/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banking/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banking/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/house/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/house/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Devices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/account/Account1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/account/TotalBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/account/TotalBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/others/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/others/Account2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/others/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/others/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/training/others/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/others/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraylistSerialized.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arraylistSerialized.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/movieDetails/ActorDetailFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/movieDetails/ActorDetailFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/movieDetails/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/movieDetails/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/account/ArrayListDeserialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/training/account/ArrayListDeserialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/training/account/ArrayListSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/training/account/ArrayListSerialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movieDetails/ActorDetailFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movieDetails/ActorDetailFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movieDetails/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movieDetails/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/account/ArrayListDeserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/account/ArrayListDeserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/training/account/ArrayListSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/training/account/ArrayListSerialization.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +79,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -89,16 +96,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/houseAutomation/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/hrmsDemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hrmsDemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Training\Spring\Project\DataStructure\src\main\java\hrmsDemo" />
       <recent name="C:\Training\Spring\Project\DataStructure\src\main\java\houseAutomation\classes" />
       <recent name="C:\Training\Spring\Project\DataStructure" />
       <recent name="C:\Training\Spring\Project\DataStructure\build\classes\java\main\files" />
@@ -117,13 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegularExpression">
-    <configuration name="ArrayListDeserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.account.ArrayListDeserialization" />
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atm.Controller" />
       <module name="DataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.account.*" />
+          <option name="PATTERN" value="atm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,25 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.account.ArrayListSerialization" />
+    <configuration name="DataManuplation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.DataManuplation" />
       <module name="DataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="movieDetails.MainApp" />
-      <module name="DataStructure.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="movieDetails.*" />
+          <option name="PATTERN" value="database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +156,11 @@
       </method>
     </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="houseAutomation.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="abstractFactoryPattern.MainApp" />
       <module name="DataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="houseAutomation.*" />
+          <option name="PATTERN" value="abstractFactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="movieDetails.MainApp" />
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remoteMI.coustomRMI.Bank.MyClient" />
       <module name="DataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="movieDetails.*" />
+          <option name="PATTERN" value="remoteMI.coustomRMI.Bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.others.RegularExpression" />
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remoteMI.coustomRMI.Bank.MyServer" />
       <module name="DataStructure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.others.*" />
+          <option name="PATTERN" value="remoteMI.coustomRMI.Bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListDeserialization" />
-        <item itemvalue="Application.ArrayListSerialization" />
-        <item itemvalue="Application.RegularExpression" />
-        <item itemvalue="Application.MainApp (1)" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.DataManuplation" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
       </list>
     </recent_temporary>
   </component>

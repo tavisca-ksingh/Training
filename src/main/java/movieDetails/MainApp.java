@@ -68,6 +68,8 @@ public class MainApp {
         return  workType;
     }
 
+
+
     public static Song addSong() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Song Name :");
